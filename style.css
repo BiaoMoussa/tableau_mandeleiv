@@ -1,0 +1,153 @@
+/* entête*/
+header
+{
+    text-align: center;
+}
+
+/* la photo*/
+
+a img
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 180px;
+    margin-top: 50px;
+    position: relative;
+}
+/* tableau*/
+
+table
+{
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+.tableau_isole
+{
+    margin-top: 80px;
+}
+
+#tableau_principal
+{
+    margin-bottom: 20px;
+}
+
+/* titre du tableau principal*/
+
+caption 
+{   caption-side: bottom;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* les cellules*/
+td, #elem4
+{
+    border: 1px black solid;
+    width: 80px;
+    border-radius: 2px; 
+    margin: 20px;
+   
+}
+
+#elem4,#elem12,#elem20,#elem38,#elem56,#elem88
+{
+    background-color: #CDEBC8;
+}
+#elem1,#elem6,#elem7,#elem8,#elem15,#elem16,#elem34
+{
+    background-color:#9E95C7 ;
+}
+#elem2,#elem10,#elem18,#elem36,#elem54,#elem86,#elem118
+{
+    background-color: #84B8D7;
+}
+
+#elem13,#elem31,#elem49,#elem50,#elem81,#elem82,#elem83,#elem113,#elem114,#elem115,#elem116
+{
+    background-color:#FECEA0 ;
+}
+
+#elem5,#elem14,#elem32,#elem33,#elem51,#elem52,#elem84
+{
+    background-color: #F0F9C1;
+}
+
+#elem17,#elem9,#elem174,#elem35,#elem53,#elem85,#elem117
+{
+    background-color: #FEECB9;
+}
+
+#elem89,#elem90,#elem91,#elem92,#elem93,#elem94,#elem95,#elem96,#elem97,#elem98,#elem99,#elem100,#elem101,#elem102
+{
+    background-color: #7E425B;
+}
+
+#elem57,#elem58,#elem59,#elem60,#elem61,#elem62,#elem63,#elem64,#elem65,#elem66,#elem67,#elem68,#elem69,#elem70
+{
+  background-color: #E68B95;  
+}
+
+#elem3,#elem11,#elem19,#elem37,#elem37,#elem55,#elem87
+{
+    background-color: #A3DAC9;
+}
+#elem21,#elem22,#elem23,#elem24,#elem25,#elem26,#elem27,#elem28,#elem29,#elem30,
+#elem39,#elem40,#elem41,#elem42,#elem43,#elem44,#elem45,#elem46,#elem47,#elem48,
+#elem71,#elem72,#elem73,#elem74,#elem75,#elem76,#elem77,#elem78,#elem79,#elem80,
+#elem103,#elem104,#elem105,#elem106,#elem107,#elem108,#elem109,#elem110,#elem111,#elem112
+{
+    background-color: #F8A78E;
+}
+.symbol_elem
+{
+    font-weight: bold;
+}
+
+.num_elem
+{
+    font-size: 0.8em;
+}
+
+.nom_elem
+{
+    font-size: 0.8em;
+}
+
+/*les espaces selon les lignes : exemple espace_1 pour la ligne 1 ...ainsi de suite*/
+
+#espace_1
+{
+    width: 1372px;
+    border: none;
+}
+#espace_2 
+{
+   width: 855px; 
+   border: none;
+}
+
+#espace_3
+{
+    width: 855px; 
+    border: none;
+}
+
+/* Responsive design*/
+
+@media all and (max-width : 760px)
+{
+#tableau_isole tr
+    {   
+        display: block;
+        
+    }
+    
+    
+    
+}
